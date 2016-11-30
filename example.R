@@ -13,7 +13,7 @@ l2 <- length(grp.2)
 lt <- l1+l2
 #this comment
 
-test.diff <- mean(grp.1) - mean(grp.2)
+test.diff <- median(grp.1) - median(grp.2)
 
 
 it <- function(n){
